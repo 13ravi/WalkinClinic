@@ -1,4 +1,5 @@
 # Project Programming for Big Data
+# Ravinder Singh
 # Walk-in-Clinic
 
 Walk in Clinic is a web-based application which will allow a clinic staff to handle their operations.
