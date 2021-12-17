@@ -44,9 +44,6 @@ C:\Walk-In-Clinic-Backend>myenv\Scripts\activate
 (myenv) C:\Walk-In-Clinic-Backend\cd DjangoAPI
 ```
 ```bash
-(myenv) C:\Walk-In-Clinic-Backend\cd DjangoAPI
-```
-```bash
 (myenv) C:\Walk-In-Clinic-Backend\DjangoAPI>python manage.py runserve
 ```
 * Django Migration commands
