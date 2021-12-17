@@ -1,28 +1,59 @@
-# Playwright Contact Automation Framework
+# Project Programming for Big Data
+# Walk-in-Clinic
 
-This is the automation framework project written in js and uses Playwright to automate regression testing
+Walk in Clinic is a web-based application which will allow a clinic staff to handle their operations.
+This application will accelerate the workflows and also it is a solutions to better connect patients and healthcare providers.
+
+We have separate apps for both front-end and back-end
+our SQLite Database file resides with in Walk-In-Clinic-BackEnd 
+
 
 ## Installation
 
-* Install [node.js](https://nodejs.org/en/download/)
+* Install [node.js](https://nodejs.org/en/download/) v14.15.0
+* Install [django](https://docs.djangoproject.com/en/4.0/topics/install/)
 * Clone the Repository
 * Open the cloned folder in terminal
 * Use the [npm](https://www.npmjs.com/package/npm) package manager to install the required libraries
 
+* For Front-End app (Walk-In-Clinic-FrontEnd) 
 ```bash
-npm install
+npm install --force
 ```
 
-## Usage
-
-To run the tests Parallely use the below command. 
 ```bash
-npm run websiteJoinJourney
+npm install -g angular-cli@12.1.2
 ```
 
-To open recorder use
 ```bash
-npm run openRecorder
+ng build 
+```
+
+```bash
+ng server 
+```
+
+* For Back-end API (Walk-In-Clinic-BackEnd) 
+* Django APi setup
+
+```bash
+C:\Walk-In-Clinic-Backend>myenv\Scripts\activate
+```
+```bash
+(myenv) C:\Walk-In-Clinic-Backend\cd DjangoAPI
+```
+```bash
+(myenv) C:\Walk-In-Clinic-Backend\cd DjangoAPI
+```
+```bash
+(myenv) C:\Walk-In-Clinic-Backend\DjangoAPI>python manage.py runserve
+```
+* Django Migration commands
+```bash
+(myenv) C:\Walk-In-Clinic-Backend\DjangoAPI>python manage.py makemigrations WalkinClinicApp
+```
+```bash
+(myenv) C:\Walk-In-Clinic-Backend\DjangoAPI>python manage.py migrate WalkinClinicApp
 ```
 
 ## Contributing
